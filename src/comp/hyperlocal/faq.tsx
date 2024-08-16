@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export function AccordionDemo() {
+const AccordionDemo = () => {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
@@ -30,4 +30,6 @@ export function AccordionDemo() {
       </AccordionItem>
     </Accordion>
   );
-}
+};
+
+export default AccordionDemo;
