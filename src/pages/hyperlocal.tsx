@@ -123,12 +123,14 @@ function Hyperlocal() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-8">
             <h3 className="text-2xl md:text-4xl font-semibold text-center mb-4 text-gray-800">
-              Our Subscription Plan
+              FAQs
             </h3>
           </div>
         </div>
       </motion.section>
-      <AccordionDemo />
+      <div className="w-2/3 m-auto">
+        <AccordionDemo />
+      </div>
     </div>
   );
 }
