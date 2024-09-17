@@ -1,9 +1,9 @@
-import Hyperlocal from "./pages/hyperlocal";
+// import Hyperlocal from "./pages/hyperlocal";
 import SportLayout from "./pages/sportsLayout";
 function App() {
   return (
     <>
-      <Hyperlocal />
+      {/* <Hyperlocal /> */}
       <SportLayout />
     </>
   );
